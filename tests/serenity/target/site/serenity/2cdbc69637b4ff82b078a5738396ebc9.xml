@@ -1,0 +1,27 @@
+<acceptance-test-run title="(/products-and-docs/widgets/calendar/) Event message - Check event message for invalid API Key" name="(/products-and-docs/widgets/calendar/) Event message - Check event message for invalid API Key" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="5844" timestamp="2017-01-31T15:30:03.618Z" session-id="8b88c131-f180-4221-9036-49727f01c716">
+  <user-story id="CalendarWidget" name="Calendar widget" path="stories/site/widgets/CalendarWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Calendar widget" type="story"/>
+    <tag name="Widgets/Calendar widget" type="story"/>
+  </tags>
+  <test-group name="Given open Calendar Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3171">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And enter custom ApiKey {invalidApiKey123}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="388">
+      <description>Set api key: invalidApiKey123</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the event message is shown &quot;No results were found&quot;" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2177">
+      <description>Check that event message is shown: No results were found</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="64">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

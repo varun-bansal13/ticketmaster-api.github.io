@@ -1,0 +1,133 @@
+<acceptance-test-run title="(/products-and-docs/widgets/event-discovery/) VISUAL TAB - Check Layout Resolutions" name="(/products-and-docs/widgets/event-discovery/) VISUAL TAB - Check Layout Resolutions" steps="21" successful="21" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26124" timestamp="2017-01-31T15:41:23.103Z" session-id="a7e5b640-b14a-4b31-a15c-0cd246d9609d">
+  <user-story id="EventDiscoveryWidget" name="Event discovery widget" path="stories/site/widgets/EventDiscoveryWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Event discovery widget" type="story"/>
+    <tag name="Widgets/Event discovery widget" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>layoutResolution</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>300x600</value>
+      </row>
+      <row result="SUCCESS">
+        <value>300x250</value>
+      </row>
+      <row result="SUCCESS">
+        <value>custom</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {layoutResolution=300x600}" result="SUCCESS">
+    <test-group name="Given open Event Discovery Widget page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2786">
+        <description>Open page</description>
+      </test-step>
+    </test-group>
+    <test-group name="And switch to VISUAL Tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="1351">
+        <description>Switch to tab: visual</description>
+      </test-step>
+    </test-group>
+    <test-group name="And set theme to poster" result="SUCCESS">
+      <test-step result="SUCCESS" duration="481">
+        <description>Set poster theme</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="876">
+      <description>And set layout resolution to {300x600}</description>
+    </test-step>
+    <test-group name="When click on &quot;Get code&quot; button" result="SUCCESS">
+      <test-step result="SUCCESS" duration="1084">
+        <description>Click on get button</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the pop-up Embedded Code is opened" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2267">
+        <description>Check that popup embedded code is opened</description>
+      </test-step>
+    </test-group>
+    <test-group name="And embedded html code contains stored layout resolution" result="SUCCESS">
+      <test-step result="SUCCESS" duration="280">
+        <description>Check that embedded code contains stored resolution</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[2] {layoutResolution=300x250}" result="SUCCESS">
+    <test-group name="Given open Event Discovery Widget page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2476">
+        <description>Open page</description>
+      </test-step>
+    </test-group>
+    <test-group name="And switch to VISUAL Tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="992">
+        <description>Switch to tab: visual</description>
+      </test-step>
+    </test-group>
+    <test-group name="And set theme to poster" result="SUCCESS">
+      <test-step result="SUCCESS" duration="235">
+        <description>Set poster theme</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="730">
+      <description>And set layout resolution to {300x250}</description>
+    </test-step>
+    <test-group name="When click on &quot;Get code&quot; button" result="SUCCESS">
+      <test-step result="SUCCESS" duration="1495">
+        <description>Click on get button</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the pop-up Embedded Code is opened" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2384">
+        <description>Check that popup embedded code is opened</description>
+      </test-step>
+    </test-group>
+    <test-group name="And embedded html code contains stored layout resolution" result="SUCCESS">
+      <test-step result="SUCCESS" duration="312">
+        <description>Check that embedded code contains stored resolution</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[3] {layoutResolution=custom}" result="SUCCESS">
+    <test-group name="Given open Event Discovery Widget page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="3025">
+        <description>Open page</description>
+      </test-step>
+    </test-group>
+    <test-group name="And switch to VISUAL Tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="796">
+        <description>Switch to tab: visual</description>
+      </test-step>
+    </test-group>
+    <test-group name="And set theme to poster" result="SUCCESS">
+      <test-step result="SUCCESS" duration="317">
+        <description>Set poster theme</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="783">
+      <description>And set layout resolution to {custom}</description>
+    </test-step>
+    <test-group name="When click on &quot;Get code&quot; button" result="SUCCESS">
+      <test-step result="SUCCESS" duration="1158">
+        <description>Click on get button</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then the pop-up Embedded Code is opened" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2163">
+        <description>Check that popup embedded code is opened</description>
+      </test-step>
+    </test-group>
+    <test-group name="And embedded html code contains stored layout resolution" result="SUCCESS">
+      <test-step result="SUCCESS" duration="87">
+        <description>Check that embedded code contains stored resolution</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,61 @@
+<acceptance-test-run title="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Check RESET button functionality on Embedded Code Pop-up window" name="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Check RESET button functionality on Embedded Code Pop-up window" steps="12" successful="12" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="8655" timestamp="2017-01-31T15:37:21.414Z" session-id="49abdfb3-1001-4d60-8761-f245234296fc">
+  <user-story id="CountdownWidget" name="Countdown widget" path="stories/site/widgets/CountdownWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Countdown widget" type="story"/>
+    <tag name="Widgets/Countdown widget" type="story"/>
+  </tags>
+  <test-group name="Given open Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2105">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And store ApiKey and EventId on Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="264">
+      <description>Store current api key</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="123">
+      <description>Store current event id</description>
+    </test-step>
+  </test-group>
+  <test-group name="And change value for ApiKey and EventId on Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="255">
+      <description>Set api key: anyApiKey</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="291">
+      <description>Set event id: anyEventId</description>
+    </test-step>
+  </test-group>
+  <test-group name="When submit form" result="SUCCESS">
+    <test-step result="SUCCESS" duration="94">
+      <description>Submit form</description>
+    </test-step>
+  </test-group>
+  <test-group name="And click reset button" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1923">
+      <description>Reset form</description>
+    </test-step>
+  </test-group>
+  <test-group name="And click on &quot;Get code&quot; button" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1066">
+      <description>Click on get button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the pop-up Embedded Code is opened" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2283">
+      <description>Check that popup embedded code is opened</description>
+    </test-step>
+  </test-group>
+  <test-group name="And embedded html code contains stored ApiKey and EventId" result="SUCCESS">
+    <test-step result="SUCCESS" duration="103">
+      <description>Check that embedded code contains stored api key</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="98">
+      <description>Check that embedded code contains stored event id</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="20">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

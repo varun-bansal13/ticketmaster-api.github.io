@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/products-and-docs/apis/changelog/) Verification for general page&apos;s elements" name="(/products-and-docs/apis/changelog/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4973" timestamp="2017-01-31T15:30:14.053Z" session-id="9ccbc7de-2114-4157-8aaf-f8fa37d8e40a">
+  <user-story id="PD_ChangeLog" name="Pd  change log" path="stories/site/products_and_docs/PD_ChangeLog.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  change log" type="story"/>
+    <tag name="Products and docs/Pd change log" type="story"/>
+  </tags>
+  <test-group name="Given open ChangeLog page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3832">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for ChangeLog Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="533">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="541">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="36">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

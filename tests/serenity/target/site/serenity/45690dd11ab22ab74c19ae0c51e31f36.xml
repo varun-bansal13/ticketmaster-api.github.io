@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/products-and-docs/apis/inventory-status/) Verification for general page&apos;s elements" name="(/products-and-docs/apis/inventory-status/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="5385" timestamp="2017-01-31T15:44:06.612Z" session-id="f135852d-e97f-4aa9-b7a2-336ad74e93ab">
+  <user-story id="PD_InventoryStatusAPI" name="Pd  inventory status API" path="stories/site/products_and_docs/PD_InventoryStatusAPI.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  inventory status API" type="story"/>
+    <tag name="Products and docs/Pd inventory status api" type="story"/>
+  </tags>
+  <test-group name="Given open Inventory Status API page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="4719">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Inventory Status API Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="227">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="328">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="90">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

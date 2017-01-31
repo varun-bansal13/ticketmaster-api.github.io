@@ -1,0 +1,38 @@
+<acceptance-test-run title="(developer-acct.ticketmaster.com/user/register) Verification for general page&apos;s elements" name="(developer-acct.ticketmaster.com/user/register) Verification for general page&apos;s elements" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="27736" timestamp="2017-01-31T15:22:26.714Z" session-id="e6355b35-040b-4574-9397-9898265a0816">
+  <user-story id="CreateNewAccount" name="Create new account" path="stories/site/pantheon/CreateNewAccount.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Pantheon" type="feature"/>
+    <tag name="Create new account" type="story"/>
+    <tag name="Pantheon/Create new account" type="story"/>
+  </tags>
+  <test-group name="Given open Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="4229">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When navigate to Pantheon LogIn page from Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="310">
+      <description>Click log in</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1077">
+      <description>Is page opened</description>
+    </test-step>
+  </test-group>
+  <test-group name="When navigate to Pantheon Create New Account page from LogIn page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1421">
+      <description>Click create new account button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Pantheon Create New Account page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="178">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="20384">
+      <description>Check general page elements</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="44">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

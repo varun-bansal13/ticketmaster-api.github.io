@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/support/branding-guide/) Verification for general page&apos;s elements" name="(/support/branding-guide/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4149" timestamp="2017-01-31T15:44:12.107Z" session-id="4644f823-97e7-49fc-8155-04436ca2f6d2">
+  <user-story id="Support_BrandingGuide" name="Support  branding guide" path="stories/site/support/Support_BrandingGuide.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Support" type="feature"/>
+    <tag name="Support  branding guide" type="story"/>
+    <tag name="Support/Support branding guide" type="story"/>
+  </tags>
+  <test-group name="Given open Branding Guide page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3420">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Branding Guide Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="364">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="328">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="22">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,24 @@
+<acceptance-test-run title="(/Home Page/) Verification for general page elements" name="(/Home Page/) Verification for general page elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="25299" timestamp="2017-01-31T15:23:00.482Z" session-id="ef9bec54-07ee-4725-9f39-5fe3fc5dd8ad">
+  <user-story id="Home" name="Home" path="stories/site/Home.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Home" type="story"/>
+    <tag name="Site/Home" type="story"/>
+  </tags>
+  <test-group name="Given open Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="4629">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Home Page, where DISQUS = {false} and LeftMenu = {false}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="140">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="20391">
+      <description>Check general page elements: false, false</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="99">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/api-explorer/) Verification for general page&apos;s elements" name="(/api-explorer/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4306" timestamp="2017-01-31T15:30:09.636Z" session-id="a1239001-f156-4d56-8276-f0449f104278">
+  <user-story id="PD_SeasonTicketingAPI" name="Pd  season ticketing API" path="stories/site/products_and_docs/PD_SeasonTicketingAPI.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  season ticketing API" type="story"/>
+    <tag name="Products and docs/Pd season ticketing api" type="story"/>
+  </tags>
+  <test-group name="Given open Season Ticketing API page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3480">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Season Ticketing API Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="264">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="490">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="40">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

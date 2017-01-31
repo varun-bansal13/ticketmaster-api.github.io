@@ -1,0 +1,49 @@
+<acceptance-test-run title="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Get new EventId" name="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Get new EventId" steps="10" successful="10" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="13815" timestamp="2017-01-31T15:37:30.073Z" session-id="49abdfb3-1001-4d60-8761-f245234296fc">
+  <user-story id="CountdownWidget" name="Countdown widget" path="stories/site/widgets/CountdownWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Countdown widget" type="story"/>
+    <tag name="Widgets/Countdown widget" type="story"/>
+  </tags>
+  <test-group name="Given open Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2268">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When User is logged to site (Countdown Widget)" result="SUCCESS">
+    <test-step result="SUCCESS" duration="197">
+      <description>Click log in</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5949">
+      <description>Log in to account</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="432">
+      <description>Get API key of user</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2674">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And get eventId by keyword {ADELE}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1007">
+      <description>Click on get event id</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="190">
+      <description>Enter keyword: ADELE</description>
+    </test-step>
+  </test-group>
+  <test-group name="And set first eventId from list" result="SUCCESS">
+    <test-step result="SUCCESS" duration="815">
+      <description>Apply first event id</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the event poster contains {ADELE}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="238">
+      <description>Check that poster contains text: ADELE</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="19">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

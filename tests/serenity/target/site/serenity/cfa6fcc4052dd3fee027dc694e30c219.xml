@@ -1,0 +1,42 @@
+<acceptance-test-run title="(/products-and-docs/widgets/event-discovery/) TECHNICAL TAB - Check that embed code functionality works properly" name="(/products-and-docs/widgets/event-discovery/) TECHNICAL TAB - Check that embed code functionality works properly" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18740" timestamp="2017-01-31T15:39:21.332Z" session-id="a7e5b640-b14a-4b31-a15c-0cd246d9609d">
+  <user-story id="EventDiscoveryWidget" name="Event discovery widget" path="stories/site/widgets/EventDiscoveryWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Event discovery widget" type="story"/>
+    <tag name="Widgets/Event discovery widget" type="story"/>
+  </tags>
+  <test-group name="Given open Event Discovery Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="4013">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And change values for all possible fields on the Event Discovery Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="8810">
+      <description>Change values for all fields</description>
+    </test-step>
+  </test-group>
+  <test-group name="And store all fields values on the Event Discovery Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="825">
+      <description>Store values for all fields</description>
+    </test-step>
+  </test-group>
+  <test-group name="When click on &quot;Get code&quot; button" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1101">
+      <description>Click on get button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the pop-up Embedded Code is opened" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2416">
+      <description>Check that popup embedded code is opened</description>
+    </test-step>
+  </test-group>
+  <test-group name="And embedded html code contains stored values on the Event Discovery Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1511">
+      <description>Check that embedded html code contains stored values</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="34">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

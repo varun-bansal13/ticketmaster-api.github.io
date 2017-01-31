@@ -1,0 +1,41 @@
+<acceptance-test-run title="(/search/) Verification for general page&apos;s elements" name="(/search/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26037" timestamp="2017-01-31T15:25:29.299Z" session-id="cd197c01-5061-440a-a051-06248c24e8e6">
+  <user-story id="Search" name="Search" path="stories/site/Search.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Search" type="story"/>
+    <tag name="Site/Search" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>searchRequest</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>test</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {searchRequest=test}" result="SUCCESS">
+    <test-group name="Given open Home page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="3215">
+        <description>Open page</description>
+      </test-step>
+    </test-group>
+    <test-group name="And insert Search Parameter {test} and navigate to Search page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="448">
+        <description>Insert search parameter and navigate to search page: test</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then check general page elements for Search Page, where DISQUS = {false} and LeftMenu = {false}" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2074">
+        <description>Check if title is correct</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="20265">
+        <description>Check general page elements: false, false</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

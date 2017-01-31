@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Feedback widget","(feedback widget) Check that Feedback widget Elements are shown","SUCCESS","2017-01-31T15:35:59.756Z","0.0","4.04"
+"Feedback widget","(feedback widget) Feedback widget Close button","SUCCESS","2017-01-31T15:36:03.805Z","0.0","1.64"
+"Feedback widget","(feedback widget) Feedback widget error notifications for Email field","SUCCESS","2017-01-31T15:36:06.790Z","0.0","2.64"
+"Feedback widget","(feedback widget) Feedback widget error notifications for NAME field","SUCCESS","2017-01-31T15:36:05.447Z","0.0","1.34"

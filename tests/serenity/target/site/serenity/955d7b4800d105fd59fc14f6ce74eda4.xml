@@ -1,0 +1,37 @@
+<acceptance-test-run title="(feedback widget) Feedback widget error notifications for Email field" name="(feedback widget) Feedback widget error notifications for Email field" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="2635" timestamp="2017-01-31T15:36:06.790Z" session-id="b9ff42ca-1a6e-4160-8e44-d493daf110d0">
+  <user-story id="FeedbackWidget" name="Feedback widget" path="stories/site/widgets/FeedbackWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Feedback widget" type="story"/>
+    <tag name="Widgets/Feedback widget" type="story"/>
+  </tags>
+  <test-group name="Given open Tutorials Widgets page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1886">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And click Feedback button of Tutorials Widgets page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="110">
+      <description>Click feedback button</description>
+    </test-step>
+  </test-group>
+  <test-group name="When all fields except Email are populated" result="SUCCESS">
+    <test-step result="SUCCESS" duration="458">
+      <description>Populate all fields except email</description>
+    </test-step>
+  </test-group>
+  <test-group name="And click send button of Feedback widget" result="SUCCESS">
+    <test-step result="SUCCESS" duration="112">
+      <description>Click send feedback widget button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then error notification is shown for Feedback widget" result="SUCCESS">
+    <test-step result="SUCCESS" duration="29">
+      <description>Check error notification for text field</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="24">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/products-and-docs/apis/commerce/) Verification for general page&apos;s elements" name="(/products-and-docs/apis/commerce/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="7793" timestamp="2017-01-31T15:34:40.203Z" session-id="88aceee3-776a-4e5c-bd30-fa6403f77ed8">
+  <user-story id="PD_CommerceAPI" name="Pd  commerce API" path="stories/site/products_and_docs/PD_CommerceAPI.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  commerce API" type="story"/>
+    <tag name="Products and docs/Pd commerce api" type="story"/>
+  </tags>
+  <test-group name="Given open Commerce API page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="6254">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Commerce API Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="640">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="841">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="35">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>
