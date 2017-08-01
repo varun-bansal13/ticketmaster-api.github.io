@@ -23,7 +23,7 @@ The Ticketmaster Presence API allows you to validate tickets and manage scanning
 + Handle Exit and Secondary Scans
 + Pull Configured Scanner Information
 
-#### Endpoint
+#### Base URL
 
 The base URL for the Web API is `https://app.ticketmaster.com/presence/v1/`
 
@@ -38,7 +38,7 @@ For example:
 
 + `apikey` = `gwyfRRwYcA0gmbUDDAtADEeaHT` (required, string)
 
-To request an API Key send an email to the [Presence API team](mailto:Presenceapisupport@livenation.com).
+To request an API Key send an email to the [Presence API team](mailto:Presenceapisupport@livenation.com) with your application name from the "My Apps" page
 
 #### Format
 All responses are returned in JSON format
@@ -55,11 +55,11 @@ Check the validity of ticket and mark it as entered, exited or secondary scanned
 **Method:** POST.
 Authentication required.
 
-presence/{version}/ticket/enter
+{Base URL}/ticket/enter
 {: .code .red}
-presence/{version}/ticket/exit
+{Base URL}/ticket/exit
 {: .code .red}
-presence/{version}/ticket/validate
+{Base URL}/ticket/validate
 {: .code .red}
 
 ### Request body structure:
@@ -191,7 +191,7 @@ Configure your scanning device to your venue.
 **Method:** POST.
 Authentication required.
 
-presence/{version}/device/init
+{Base URL}/device/init
 {: .code .red}
 
 ### Request body structure:
@@ -313,7 +313,7 @@ Retrieve the information for a configured device
 **Method:** GET.
 Authentication required.
 
-presence/{version}/device
+{Base URL}/device
 {: .code .red}
 
 ### Query Parameters :
