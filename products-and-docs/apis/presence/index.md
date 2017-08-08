@@ -148,7 +148,7 @@ curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H
 {: .reqres}
 
 {% highlight HTTP %}
-POST /presence/v1/ticket/enter.json?{apikey} HTTP/1.1
+POST /presence/v1/ticket/enter?{apikey} HTTP/1.1
 Host: app.ticketmaster.com
 {
 	"channelId":"A",
@@ -274,7 +274,7 @@ curl -X POST -H "Content-Type: application/json" -H "Accept: application/json" -
 {: .reqres}
 
 {% highlight HTTP %}
-POST /presence/v1/device/init.json?{apikey} HTTP/1.1
+POST /presence/v1/device/init?{apikey} HTTP/1.1
 Host: app.ticketmaster.com
 {
     "name" : "Test device",
@@ -383,7 +383,7 @@ curl -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H
 {: .reqres}
 
 {% highlight HTTP %}
-GET /presence/v1/device.json?{apikey}&venueId=?&mac=? HTTP/1.1
+GET /presence/v1/device?{apikey}&venueId=?&mac=? HTTP/1.1
 Host: app.ticketmaster.com
 {% endhighlight %}
 
